@@ -18,7 +18,7 @@
 body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -32,7 +32,7 @@ body{
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -47,7 +47,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
@@ -97,7 +97,7 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
 
@@ -112,7 +112,7 @@ body{
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 @media (max-width: 1200px){
